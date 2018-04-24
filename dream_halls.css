@@ -7,7 +7,7 @@ nav {
     position: fixed;
     width: 100%;
     z-index: 10;
-    border: solid 1px red;
+/*    border: solid 1px red;*/
     top: 0px;
     margin-top: 5px;
     font-size: 18px;
