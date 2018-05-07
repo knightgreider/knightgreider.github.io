@@ -3,6 +3,13 @@ body {
     margin: 0px;
 }
 
+#main-container {
+    display: flex;
+    border: solid 20px aqua;
+    width: 100%;
+    flex-direction:column;
+}
+
 nav {
     position: fixed;
     width: 100%;
@@ -84,7 +91,7 @@ p {
 #about-container{
     width: 700px;
     margin-top: 140px;
-    height: 800px;
+    height: 600px;
     position: absolute;
     right: 50%;
     left: 50%;
@@ -123,14 +130,16 @@ p {
     font-family: sans-serif;
 }
 
-.class-header {
-    position: absolute;
-    top: 1400px;
+.instruction-header {
+    position: relative;
+    top: 100px;
     right: 50%;
     left: 50%;
-    margin-left: -110px;
-    font-size: 50px;
+    margin-left: -170px;
+    font-size: 30px;
     font-family: sans-serif;
+    border: solid 1px orange;
+    width: 350px;
 }
 
 .class-name {
@@ -224,7 +233,7 @@ body {
 }
 
 #about-container{
-    width: 700px;
+    width: 100%;
     margin-top: 140px;
     height: 400px;
     position: absolute;
@@ -258,24 +267,18 @@ body {
 
 
 .class-name {
-    position: relative;
+    justify-content: center;
     top: 100px;
-    right: 50%;
-    left: 50%;
-    margin-left: -100px;
     font-size: 30px;
     font-family: sans-serif;
 }
 
 .class-image {
-    position: relative;
+    justify-content: center;
     top: 90px;
-    right: 50%;
-    left: 50%;
     width: 500px;
     height: 226px;
     background-color: brown;
-    margin-left: -250px;
 }
 
 .class-name-all {
