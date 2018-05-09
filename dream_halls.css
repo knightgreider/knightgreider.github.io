@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
 
 body {
     margin: 0px;
+    font-family: 'Cabin', sans-serif;
 }
 
 #main-container {
     display: flex;
-    border: solid 20px aqua;
+/*    border: solid 20px aqua;*/
     width: 100%;
     flex-direction:column;
 }
@@ -18,8 +20,7 @@ nav {
     top: 0px;
     margin-top: 5px;
     font-size: 18px;
-    background-color: white;
-}
+background-color: rgba(255, 255, 255, 0.8);}
 
 #nav-container {
 
@@ -41,7 +42,7 @@ li {
 
 a { color: black;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Cabin', sans-serif;
 }
 
 a:hover{
@@ -49,9 +50,18 @@ a:hover{
 }
 
 p {
-    font-family: sans-serif;
+    font-family: 'Cabin', sans-serif;
 }
 
+li {
+    font-family: 'Cabin', sans-serif;
+
+}
+
+h1 {
+    font-family: 'Cabin', sans-serif;
+
+}
 #header {
     width: 630px;
     height: 312px;
@@ -118,38 +128,34 @@ p {
     left: 360px;
     padding: 20px;
     border: solid 1px orange;
+    font-family: 'Cabin', sans-serif;
+
 }
 
 .class-header {
-    position: absolute;
-    top: 1400px;
-    right: 50%;
-    left: 50%;
-    margin-left: -110px;
+    position: relative;
+    top: 50px;
     font-size: 50px;
     font-family: sans-serif;
+    text-align:center;
+    font-family: 'Cabin', sans-serif;
+
 }
 
 .instruction-header {
     position: relative;
     top: 100px;
-    right: 50%;
-    left: 50%;
-    margin-left: -170px;
+    text-align:center;
     font-size: 30px;
     font-family: sans-serif;
     border: solid 1px orange;
-    width: 350px;
 }
 
 .class-name {
-    position: relative;
     top: 100px;
-    right: 50%;
-    left: 50%;
-    margin-left: -100px;
     font-size: 30px;
     font-family: sans-serif;
+    align-self: center;
 }
 
 .class-image {
@@ -166,9 +172,7 @@ p {
 .class-name-all {
     position: relative;
     top: 100px;
-    right: 50%;
-    left: 50%;
-    margin-left: -90px;
+    text-align:center;
     font-size: 30px;
     font-family: sans-serif;
 }
@@ -182,6 +186,10 @@ footer {
     margin-top: 200px;
 }
 
+#bottom-nav {
+    list-style: none;
+
+}
 
 
 
