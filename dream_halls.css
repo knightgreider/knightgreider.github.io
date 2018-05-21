@@ -22,9 +22,6 @@ nav {
     font-size: 18px;
 background-color: rgba(255, 255, 255, 0.8);}
 
-#nav-container {
-
-}
 
 #nav-flex {
     display: flex;
@@ -83,8 +80,10 @@ h1 {
 #about {
     width: 100%;
     margin-top: 600px;
-    height: 800px;
+    height: 650px;
     background-color: #BA7B0C;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -101,19 +100,15 @@ h1 {
 #about-container{
     width: 700px;
     margin-top: 140px;
-    height: 600px;
-    position: absolute;
-    right: 50%;
-    left: 50%;
-    margin-left: -350px;
+    height: 550px;
     border: solid 1px purple;
-
+    display: flex;
+    justify-content: space-between
 }
 
 #greider-image {
     width: 340px;
     height: auto;
-    position: absolute;
     border: solid 1px red;
 }
 
@@ -124,9 +119,8 @@ h1 {
 
 #about-par {
     width: 320px;
-    position: absolute;
-    left: 360px;
-    padding: 20px;
+    padding-top: 0px;
+    padding-left: 20px;
     border: solid 1px orange;
     font-family: 'Cabin', sans-serif;
 
