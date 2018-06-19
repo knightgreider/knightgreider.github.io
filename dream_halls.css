@@ -181,7 +181,7 @@ h1 {
     left: 50%;
     width: 600px;
     height: 320px;
-    background-image:url("media/1x/DM1.png");
+    background-image:url("media/1x/DM3.png");
     background-size: 590px;
     margin-left: -300px;
 }
@@ -192,29 +192,51 @@ h1 {
     left: 50%;
     width: 600px;
     height: 320px;
-    background-image:url("media/1x/DM1.png");
+    background-image:url("media/1x/DM4.png");
     background-size: 590px;
     margin-left: -300px;
 }
-.class-image-dmfive {
+.class-image-yrbk {
     position: relative;
     top: 90px;
     right: 50%;
     left: 50%;
     width: 600px;
     height: 320px;
-    background-image:url("media/1x/DM1.png");
+    background-image:url("media/1x/yearbook.png");
     background-size: 590px;
     margin-left: -300px;
 }
-.class-image-dmone {
+.class-image-photo {
     position: relative;
     top: 90px;
     right: 50%;
     left: 50%;
     width: 600px;
     height: 320px;
-    background-image:url("media/1x/DM1.png");
+    background-image:url("media/1x/photo.png");
+    background-size: 590px;
+    margin-left: -300px;
+}
+.class-image-cinema {
+    position: relative;
+    top: 90px;
+    right: 50%;
+    left: 50%;
+    width: 600px;
+    height: 320px;
+    background-image:url("media/1x/cinema.png");
+    background-size: 590px;
+    margin-left: -300px;
+}
+.class-image-da {
+    position: relative;
+    top: 90px;
+    right: 50%;
+    left: 50%;
+    width: 600px;
+    height: 320px;
+    background-image:url("media/1x/audio.png");
     background-size: 590px;
     margin-left: -300px;
 }
