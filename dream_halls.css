@@ -152,16 +152,73 @@ h1 {
     align-self: center;
 }
 
-.class-image {
+.class-image-dmone {
     position: relative;
     top: 90px;
     right: 50%;
     left: 50%;
     width: 600px;
     height: 320px;
-    background-color: brown;
+    background-image:url("media/1x/DM1.png");
+    background-size: 590px;
     margin-left: -300px;
 }
+.class-image-dmtwo {
+    position: relative;
+    top: 90px;
+    right: 50%;
+    left: 50%;
+    width: 600px;
+    height: 320px;
+    background-image:url("media/1x/DM2.png");
+    background-size: 590px;
+    margin-left: -300px;
+}
+.class-image-dmthree {
+    position: relative;
+    top: 90px;
+    right: 50%;
+    left: 50%;
+    width: 600px;
+    height: 320px;
+    background-image:url("media/1x/DM1.png");
+    background-size: 590px;
+    margin-left: -300px;
+}
+.class-image-dmfour {
+    position: relative;
+    top: 90px;
+    right: 50%;
+    left: 50%;
+    width: 600px;
+    height: 320px;
+    background-image:url("media/1x/DM1.png");
+    background-size: 590px;
+    margin-left: -300px;
+}
+.class-image-dmfive {
+    position: relative;
+    top: 90px;
+    right: 50%;
+    left: 50%;
+    width: 600px;
+    height: 320px;
+    background-image:url("media/1x/DM1.png");
+    background-size: 590px;
+    margin-left: -300px;
+}
+.class-image-dmone {
+    position: relative;
+    top: 90px;
+    right: 50%;
+    left: 50%;
+    width: 600px;
+    height: 320px;
+    background-image:url("media/1x/DM1.png");
+    background-size: 590px;
+    margin-left: -300px;
+}
+
 
 .class-name-all {
     position: relative;
