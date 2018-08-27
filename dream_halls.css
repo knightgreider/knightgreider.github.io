@@ -35,7 +35,6 @@ background-color: rgba(255, 255, 255, 0.8);}
     margin-left: auto;
   margin-right: auto;
      font-family: 'Cabin', sans-serif;
-
 }
 
 li {
@@ -58,8 +57,8 @@ p {
 
 h1 {
     font-family: 'Cabin', sans-serif;
-
 }
+
 #header {
     width: 630px;
     height: 312px;
@@ -68,7 +67,6 @@ h1 {
     right: 50%;
     left: 50%;
     margin-left: -315px;
-
 }
 
 #comm-header {
@@ -96,14 +94,13 @@ h1 {
     left: 50%;
     margin-left: -80px;
     font-size: 50px;
-    font-family: sans-serif;
+    font-family: 'Cabin',
 }
 
 #about-container{
     width: 700px;
     margin-top: 140px;
     height: 550px;
-    border: solid 1px purple;
     display: flex;
     justify-content: space-between
 }
@@ -111,7 +108,6 @@ h1 {
 #greider-image {
     width: 340px;
     height: auto;
-    border: solid 1px red;
 }
 
 #greider-small {
@@ -123,9 +119,7 @@ h1 {
     width: 320px;
     padding-top: 0px;
     padding-left: 20px;
-    border: solid 1px orange;
     font-family: 'Cabin', sans-serif;
-
 }
 
 .class-header {
@@ -144,7 +138,6 @@ h1 {
     text-align:center;
     font-size: 30px;
     font-family: sans-serif;
-    border: solid 1px orange;
     padding-bottom: 30px;
 }
 
@@ -166,6 +159,7 @@ h1 {
     background-size: 590px;
     margin-left: -300px;
 }
+
 .class-image-dmtwo {
     position: relative;
     top: 90px;
@@ -177,6 +171,7 @@ h1 {
     background-size: 590px;
     margin-left: -300px;
 }
+
 .class-image-dmthree {
     position: relative;
     top: 90px;
@@ -188,6 +183,7 @@ h1 {
     background-size: 590px;
     margin-left: -300px;
 }
+
 .class-image-dmfour {
     position: relative;
     top: 90px;
@@ -199,6 +195,7 @@ h1 {
     background-size: 590px;
     margin-left: -300px;
 }
+
 .class-image-yrbk {
     position: relative;
     top: 90px;
@@ -210,6 +207,7 @@ h1 {
     background-size: 590px;
     margin-left: -300px;
 }
+
 .class-image-photo {
     position: relative;
     top: 90px;
@@ -221,6 +219,7 @@ h1 {
     background-size: 590px;
     margin-left: -300px;
 }
+
 .class-image-cinema {
     position: relative;
     top: 90px;
@@ -232,6 +231,7 @@ h1 {
     background-size: 590px;
     margin-left: -300px;
 }
+
 .class-image-da {
     position: relative;
     top: 90px;
@@ -243,7 +243,6 @@ h1 {
     background-size: 590px;
     margin-left: -300px;
 }
-
 
 .class-name-all {
     position: relative;
@@ -261,12 +260,14 @@ footer {
     background-color: black;
     margin-top: 200px;
     display: flex;
-    justify-content: space-between
+    align-items: flex-start;
+    justify-content:space-around;
 }
 
 #bottom-nav {
     list-style: none;
-
+    justify-content: space-around;
+    margin-top: 40px;
 }
 
 .white-text {
@@ -274,22 +275,28 @@ footer {
 }
 
 #bottom-image {
+    height: 240px;
+    width: 286px;
     background-image: url("media/comm-bottom.png");
-    position: absolute;
-    justify-content: space-between
-
+    justify-content: space-around;
+    margin-top: 40px;
 
 }
 
 
+
+
 /*start of media query small screen*/
+
+
+
+
 
 
 @media only screen and (max-width: 700px){
 
 
 body {
-    background-color: lightcyan;
 }
 
 #header {
@@ -300,7 +307,6 @@ body {
     right: 50%;
     left: 50%;
     margin-left: -175px;
-    border: solid 1px red;
 
 }
 
@@ -308,60 +314,48 @@ body {
     position: static;
     width: 350px;
     height: auto;
-        border: solid 1px red;
 
 }
 
 #about {
     width: 100%;
     margin-top: 500px;
-    height: 800px;
+    height: 1050px;
     background-color: #996600;
+
 
 }
 .about-header {
-    position: absolute;
     top: 520px;
-    right: 50%;
-    left: 50%;
-    margin-left: -80px;
     font-size: 50px;
-    font-family: sans-serif;
+    font-family: 'Cabin', sans-serif;
 }
 
 #about-container{
     width: 100%;
     margin-top: 140px;
     height: 400px;
-    position: absolute;
-    right: 50%;
-    left: 50%;
-    margin-left: -350px;
-    border: solid 1px purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 
 }
 
 #greider-image {
-    width: 340px;
+    width: 200px;
     height: auto;
-    position: absolute;
-    border: solid 1px red;
 }
 
 #greider-small {
     width: 340px;
-    height: auto
+    height: auto;
 }
 
 #about-par {
-    width: 320px;
-    position: absolute;
-    left: 360px;
-    padding: 20px;
-    border: solid 1px orange;
+    width: 300px;
+    padding: 10px;
 }
-
-
 
 .class-name {
     justify-content: center;
