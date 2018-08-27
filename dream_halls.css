@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Cabin');
-
 body {
     margin: 0px;
     font-family: 'Cabin', sans-serif;
@@ -7,7 +5,6 @@ body {
 
 #main-container {
     display: flex;
-/*    border: solid 20px aqua;*/
     width: 100%;
     flex-direction:column;
 }
@@ -16,11 +13,11 @@ nav {
     position: fixed;
     width: 100%;
     z-index: 10;
-/*    border: solid 1px red;*/
     top: 0px;
     margin-top: 5px;
     font-size: 18px;
-background-color: rgba(255, 255, 255, 0.8);}
+    background-color: rgba(255, 255, 255, 0.8);
+}
 
 
 #nav-flex {
@@ -33,15 +30,16 @@ background-color: rgba(255, 255, 255, 0.8);}
     display: inline-block;
     list-style: none;
     margin-left: auto;
-  margin-right: auto;
-     font-family: 'Cabin', sans-serif;
+    margin-right: auto;
+    font-family: 'Cabin', sans-serif;
 }
 
 li {
-       list-style: none;
+    list-style: none;
 }
 
-a { color: black;
+a {
+    color: black;
     text-decoration: none;
     font-family: 'Cabin', sans-serif;
 }
@@ -54,37 +52,30 @@ p {
     font-family: 'Cabin', sans-serif;
 }
 
-
 h1 {
     font-family: 'Cabin', sans-serif;
 }
 
 #header {
-    width: 630px;
-    height: 312px;
-    position: absolute;
-    top: 100px;
-    right: 50%;
-    left: 50%;
-    margin-left: -315px;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
-#comm-header {
-    position: static;
-    width: 630px;
-    height: auto;
-    margin-top: 40px;
-
+#comm-logo {
+    max-width: 50%;
+    max-height: 50%;
 }
 
+/*About Container*/
 #about {
     width: 100%;
-    margin-top: 600px;
     height: 650px;
     background-color: #BA7B0C;
     display: flex;
     justify-content: center;
-
 }
 
 .about-header {
@@ -290,58 +281,27 @@ footer {
 body {
 }
 
-#header {
-    width: 350px;
-    height: auto;
-    position: absolute;
-    top: 120px;
-    right: 50%;
-    left: 50%;
-    margin-left: -175px;
-
-}
-
-#comm-header {
-    position: static;
-    width: 350px;
-    height: auto;
-}
-
 #about {
     width: 100%;
-    margin-top: 500px;
     height: 1050px;
-    background-color: #996600;
 }
 
 .about-header {
-    top: 520px;
     font-size: 50px;
     font-family: 'Cabin', sans-serif;
 }
 
 #about-container{
     width: 100%;
-    margin-top: 140px;
-    height: 400px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#greider-image {
-    width: 200px;
-    height: auto;
-}
-
-#greider-small {
-    width: 340px;
-    height: auto;
-}
-
 #about-par {
     width: 300px;
-    padding: 10px;
+    text-align: center;
 }
 
 .class-name {
