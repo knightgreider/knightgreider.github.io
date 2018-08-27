@@ -284,17 +284,8 @@ footer {
 }
 
 
-
-
 /*start of media query small screen*/
-
-
-
-
-
-
 @media only screen and (max-width: 700px){
-
 
 body {
 }
@@ -314,7 +305,6 @@ body {
     position: static;
     width: 350px;
     height: auto;
-
 }
 
 #about {
@@ -322,9 +312,8 @@ body {
     margin-top: 500px;
     height: 1050px;
     background-color: #996600;
-
-
 }
+
 .about-header {
     top: 520px;
     font-size: 50px;
@@ -338,8 +327,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
 }
 
 #greider-image {
